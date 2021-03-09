@@ -53,7 +53,7 @@
     ],
     "imageResize": true,
     "favicon": false,
-    "mbrsiteDomain": "bfr70mr2md",
+    "mbrsiteDomain": "d8w7e2xftn",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -67,7 +67,10 @@
     "lazyLoad": true,
     "lazyType": "blur",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "chatbutton": {}
+    "chatbutton": {},
+    "global_header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WLZWM9N');</script>\n<!-- End Google Tag Manager -->",
+    "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WLZWM9N\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
@@ -913,7 +916,7 @@
         },
         {
           "_name": "shop1",
-          "_customHTML": "<section class=\"mbr-gallery attorneym4_shop1\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#c1f7d5\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f5f6f8\">\n\n        <input type=\"shop\" title=\"Shop\" name=\"shop\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" show-sidebar sorting></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery attorneym4_shop1\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#c1f7d5\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f5f6f8\">\n\n        <input type=\"shop\" title=\"Shop\" name=\"shop\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" show-sidebar sorting shop__showsidebar=\"\"></div>\n    </div>\n\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -1723,10 +1726,10 @@
           "_once": false,
           "_params": {
             "shop__showSidebar": true,
-            "shop__reverseSidebar": true,
+            "shop__reverseSidebar": false,
             "shop__showSortButtons": true,
             "shop__showBestSellers": true,
-            "shop__showPriceRange": false,
+            "shop__showPriceRange": true,
             "shop__showTags": true,
             "text_all": "All",
             "sidebar1": "Best Sellers",
@@ -1740,8 +1743,8 @@
             "price_range_reset": "<a class=\"btn btn-sm btn-secondary\" data-app-btn=\"true\" href=\"\">Show all</a>",
             "shop": [
               {
-                "tags": "Awesome",
-                "bestSeller": false,
+                "tags": "Telescope, Yello",
+                "bestSeller": true,
                 "onSale": false,
                 "oldPrice": false,
                 "itemTitle": "Red Cap",
